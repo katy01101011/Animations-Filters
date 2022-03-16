@@ -119,22 +119,37 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* ESERCIZIO 10 - Soluzuione */
 
 .ex-10-icon {
     font-size: 60px;
+    animation: rotate 2s linear infinite;
 }
+@keyframes rotate {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
