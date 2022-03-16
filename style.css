@@ -81,17 +81,57 @@
 }
 
 
+/* ESERCIZIO 6 - Soluzuione */
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
 
 
+/* ESERCIZIO 7 - Soluzuione */
+
+.ex-7-img:hover {
+    filter: grayscale(.5);
+    transition: 1s;
+}
+
+/* ESERCIZIO 8 - Soluzuione */
+
+.ex-8-img:hover {
+    filter: sepia(1) grayscale(.1);
+    transition: 2s;
+    border-radius: 20px;
+}
 
 
-
-
+/* ESERCIZIO 9 - Soluzuione */
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover {
+    
+    transform: scale(1.5);
+    border-radius: 20px;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .ex-10-icon {
     font-size: 60px;
 }
