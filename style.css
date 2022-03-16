@@ -132,27 +132,46 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ESERCIZIO 11 - Soluzuione */
 
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation: rotate_3_4 2s linear;
+}
+
+@keyframes rotate_3_4 {
+    0% {
+        transform: rotate(0);
+    }
+
+    80% {
+        transform: rotate(270deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
